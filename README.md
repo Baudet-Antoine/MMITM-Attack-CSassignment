@@ -63,9 +63,9 @@ e99a18c428cb38d5f260853678922e03 password123
 
 Format: `<md5hash> <password>` (whitespace-separated). The program uses the hashes/passwords according to its internal algorithm — keep the same layout.
 
-## Project structure (suggested)
+## Project structure
 
-- `main.c` — main program source (your implementation).
+- `main.c` — main program source.
 - `README.md` — this file.
 - `PlaintextCiphertext.txt` — sample input (plaintext + base64 ciphertext).
 - `passwords.txt` — sample dictionary (md5 hash + password).
